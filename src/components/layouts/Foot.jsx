@@ -1,13 +1,14 @@
 import React from 'react'
 import { Footer } from "flowbite-react";
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import icon from "../../../images/6735960.jpg"
 
 const Foot = () => {
   return (
     <div className='flex h-[450px]'>
        <Footer bgDark>
        <div className='flex flex-col items-center w-1/3 justify-center'>
-        <img  className="w-[100px] h-[100px] shadow-md rounded-3xl" src="images\6735960.jpg" alt="" />
+        <img  className="w-[100px] h-[100px] shadow-md rounded-3xl" src={icon} alt="" />
         <span className="text-4xl font-black text-white dark:text-whit>Articles ml-8">SPACE NEWS</span>
         </div>
       <div className="w-full ">

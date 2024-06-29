@@ -7,6 +7,7 @@ import {
 import { Link } from "react-router-dom";
 import moment from "moment";
 import Foot from "../layouts/Foot";
+import image from "../../../images/Image.png"
 
 const Home = () => {
   const [article, setArticle] = useState([]);
@@ -70,7 +71,7 @@ const Home = () => {
       <div className="flex flex-col m-10  justify-evenly items-center ">
         <div className="static mb-10 object-center">
         
-          <img className="h-[600px] w-[1216px] max-md:h-[375px] max-md:w-[750px] max-sm:h-[187px] max-sm:w-[375px]  " src="images\Image.png" alt="..." />
+          <img className="h-[600px] w-[1216px] max-md:h-[375px] max-md:w-[750px] max-sm:h-[187px] max-sm:w-[375px]  " src={image} alt="..." />
           
           <div className="flex flex-col justify-center gap-2   w-[350px] h-[175px] rounded-2xl absolute -bottom-10 bg-gray-100 ml-10 shadow-lg max-lg:hidden max-md:hidden  max-md:h-[88px] max-md:w-[175px] max-sm:bottom-96 max-sm:h-[55px] max-sm:w-[100px]">
             

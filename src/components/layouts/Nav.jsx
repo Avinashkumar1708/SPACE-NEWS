@@ -1,5 +1,6 @@
 import { Navbar } from "flowbite-react";
 import { Link } from "react-router-dom";
+import icon from "../../../images/6735960.jpg"
 
 export function Nav() {
   return (
@@ -12,7 +13,7 @@ export function Nav() {
           >
             <img
               className="w-[50px] h-[50px] drop-shadow-md rounded-3xl"
-              src="images\6735960.jpg"
+              src={icon}
               alt=""
             />
             <span className="text-4xl font-black text-gray-700 dark:text-whit>Articles ml-8">
